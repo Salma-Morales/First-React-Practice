@@ -5,14 +5,12 @@ import SideBar from './components/sideBar';
 
 function App() {
   return (
-    <div id="warpper">
-      
-      
-      < ContentWrapper></ContentWrapper>
-      < SideBar></SideBar>
-      
-   
+    <div className="App">
+    <div id="wrapper">
+      <SideBar />
+      <ContentWrapper />
     </div>
+  </div>
   );
 }
 
